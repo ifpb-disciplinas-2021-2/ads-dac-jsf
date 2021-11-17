@@ -10,7 +10,18 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-// MCV - HTML (View) -> Servlet (Controller) -> Pessoa (Model)
+/*
+    app.get('/controladorDePessoa', () =>{
+        console.log('oi, sou um get');
+    });
+
+    app.put('/controladorDePessoa', (res, resp) =>{
+        console.log('oi, sou um get');
+    });
+* */
+
+
+// MVC - HTML (View) -> Servlet (Controller) -> Pessoa (Model)
 @WebServlet(name = "ControladorDePessoa",urlPatterns = {"/controladorDePessoa"})
 public class ControladorDePessoa extends HttpServlet {
 

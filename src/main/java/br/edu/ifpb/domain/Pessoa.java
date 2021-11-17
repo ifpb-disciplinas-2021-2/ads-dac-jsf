@@ -43,7 +43,7 @@ public class Pessoa {
         this.cpf = cpf;
     }
     public String getNome() {
-        return nome;
+        return nome.toUpperCase();
     }
     public void setNome(String nome) {
         this.nome = nome;
