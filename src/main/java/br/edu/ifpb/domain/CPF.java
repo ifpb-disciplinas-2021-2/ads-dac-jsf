@@ -14,7 +14,7 @@ public class CPF {
     }
 
     public boolean valido() {
-        return this.numero.length() == TAMANHO;
+        return this.numero.trim().length() == TAMANHO;
     }
 
     // 111.222.333-44
