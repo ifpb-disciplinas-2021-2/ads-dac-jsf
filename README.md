@@ -2,6 +2,15 @@
 
 Este projeto contém um projeto base para o desenvolvimento dos conteúdos e assuntos relacionados ao JSF.
 
+## Aulas
+
+*[Aula 1 - Conceitos Básicos ](https://github.com/ifpb-disciplinas-2021-2/ads-dac-jsf/commit/48d1201e70cb8e3d354f76993e42cd6fbe70a4e6)*
+
+*[Aula 2 - Conversores e Validadores ](https://github.com/ifpb-disciplinas-2021-2/ads-dac-jsf/commit/57a2105f30c435fdbec6500882890e3c6829ca4f)*
+
+*[Aula 3 - Templates ](https://github.com/ifpb-disciplinas-2021-2/ads-dac-jsf/)*
+
+
 ## Executando o projeto
 
 Para executarmos o código precisamos realizar o clone do projeto. Posteriormente, na pasta raiz do projeto, executar os seguintes comandos (ou executar o _script_ `run.sh`):
