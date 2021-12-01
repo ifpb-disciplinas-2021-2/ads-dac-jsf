@@ -8,7 +8,7 @@ Este projeto contém um projeto base para o desenvolvimento dos conteúdos e ass
 
 *[Aula 2 - Conversores e Validadores ](https://github.com/ifpb-disciplinas-2021-2/ads-dac-jsf/commit/57a2105f30c435fdbec6500882890e3c6829ca4f)*
 
-*[Aula 3 - Templates ](https://github.com/ifpb-disciplinas-2021-2/ads-dac-jsf/)*
+*[Aula 3 - Templates ](https://github.com/ifpb-disciplinas-2021-2/ads-dac-jsf/commit/a37f69e6d9d3af12181d9ea0e33bd7447fb9038b)*
 
 
 ## Executando o projeto
