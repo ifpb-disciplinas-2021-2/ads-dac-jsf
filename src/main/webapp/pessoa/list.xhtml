@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html" xmlns:f="http://java.sun.com/jsf/core">
-    <h:head>
-        <title>Facelet Title</title>
-    </h:head>
-    <h:body>
-<!--       Nome(s): {controle.pessoa.nome}-->
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html" 
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      template="../template.xhtml">
+    
+    <ui:define name="centro">
         <h:form>
-            <h:commandLink value="nova" action="edit?faces-redirect=true" />
-            <h:dataTable value="#{controle.todasAsPessoas()}" var="pessoa">
+            <h:commandLink value="nova" action="edit?faces-redirect=true" class="sidenav-trigger"/>
+            <h:dataTable value="#{controle.todasAsPessoas()}" var="pessoa" class="striped highlight">
                 <h:column>
                     <f:facet name="header">Nome</f:facet>
                     #{pessoa.nome}
@@ -24,14 +24,14 @@
                 </h:column>
                 <h:column>
                     <f:facet name="header">remover</f:facet>
-                    <h:commandButton value="x" action="#{controle.remover(pessoa)}" />
+                    <h:commandButton value="" action="#{controle.remover(pessoa)}" class=" btn" />
                 </h:column>
                 <h:column>
                     <f:facet name="header">editar</f:facet>
-                    <h:commandButton value="+" action="#{controle.editar(pessoa)}" />
+                    <h:commandButton value="+" action="#{controle.editar(pessoa)}" class="btn"/>
                 </h:column>
             </h:dataTable>
         </h:form>
-    </h:body>
-</html>
+    </ui:define>
+</ui:composition>
 
